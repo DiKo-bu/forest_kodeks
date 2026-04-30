@@ -5,11 +5,10 @@ void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'forest_kodeks',
+      title: 'Forest Kodeks',
       theme: ThemeData(useMaterial3: true),
       home: const WebViewScreen(),
     );
@@ -18,7 +17,6 @@ class MyApp extends StatelessWidget {
 
 class WebViewScreen extends StatefulWidget {
   const WebViewScreen({super.key});
-
   @override
   State<WebViewScreen> createState() => _WebViewScreenState();
 }
@@ -37,7 +35,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('forest_kodeks')),
+      appBar: AppBar(title: const Text('Forest Kodeks')),
       body: WebViewWidget(controller: controller),
     );
   }
