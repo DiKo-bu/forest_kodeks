@@ -29,7 +29,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
     super.initState();
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://donald-open-bookmark-roulette.trycloudflare.com'));
+      ..loadRequest(Uri.parse('https://declare-modem-news-streets.trycloudflare.com'));
   }
 
   @override
